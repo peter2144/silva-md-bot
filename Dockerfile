@@ -18,7 +18,7 @@ FROM base AS build
 
 # Install packages needed to build node modules
 RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y build-essential git node-gyp pkg-config python-is-python3
+    apt-get install --no-install-recommends -y build-essential ca-certificates git node-gyp pkg-config python-is-python3
 
 # Install node modules
 # Rewrite git SSH URLs to HTTPS so git dependencies (e.g. libsignal-node) can be fetched without an SSH client
