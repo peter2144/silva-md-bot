@@ -1,10 +1,10 @@
 {
-  "name": "silva-md",
-  "description": "Silva MD — A feature-rich multi-device WhatsApp bot with 1200+ commands, AI agent, auto-status, anti-delete, sudo system, and 19 smart features. Built with Node.js and Baileys.",
-  "keywords": ["silva-md", "whatsapp", "baileys", "bot", "multi-device", "ai", "chatbot", "whatsapp-bot", "nodejs"],
+  "name": "joker",
+  "description": "JOKER — A feature-rich multi-device WhatsApp bot with 1200+ commands, AI agent, auto-status, anti-delete, sudo system, and 19 smart features. Built with Node.js and Baileys.",
+  "keywords": ["joker-bot", "whatsapp", "baileys", "bot", "multi-device", "ai", "chatbot", "whatsapp-bot", "nodejs"],
   "logo": "https://files.catbox.moe/5uli5p.jpeg",
-  "repository": "https://github.com/SilvaTechB/silva-md-bot",
-  "website": "https://silvatech.co.ke",
+  "repository": "https://github.com/peter2144/silva-md-bot",
+  "website": "https://joker-bot.vercel.app",
   "success_url": "/",
   "stack": "heroku-26",
   "env": {
@@ -31,17 +31,17 @@
     "BOT_NAME": {
       "description": "Bot display name shown in menus and greetings.",
       "required": false,
-      "value": "✦ Silva ✦ MD ✦"
+      "value": "✦ JOKER~👺 ✦"
     },
     "OWNER_NAME": {
       "description": "Bot owner's display name.",
       "required": false,
-      "value": "Silva MD"
+      "value": "JOKER"
     },
     "THEME": {
-      "description": "Bot theme/voice. Options: silva, adam, ayanokoji, edith, friday, genos, gideon, gojo, goku, luffy, naruto, nezuko, parker, secktor, suhail, zerotwo, itachi, batman, thanos.",
+      "description": "Bot theme/voice. Options: joker, silva, adam, ayanokoji, edith, friday, genos, gideon, gojo, goku, luffy, naruto, nezuko, parker, secktor, suhail, zerotwo, itachi, batman, thanos.",
       "required": false,
-      "value": "silva"
+      "value": "joker"
     },
     "ALIVE_IMG": {
       "description": "Image URL shown with the alive/menu command.",
