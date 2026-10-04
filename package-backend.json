@@ -1,0 +1,34 @@
+{
+  "name": "@joker/joker-saas-backend",
+  "version": "1.0.0",
+  "description": "JOKER SaaS Backend - Paystack Billing & Subscription Management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peter2144/silva-md-bot.git"
+  },
+  "keywords": [
+    "joker-bot",
+    "saas",
+    "paystack",
+    "billing",
+    "subscription"
+  ],
+  "author": "JOKER",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.22.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "pg": "^8.13.0",
+    "axios": "^1.18.0"
+  }
+}
