@@ -21,6 +21,10 @@ RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y build-essential git node-gyp pkg-config python-is-python3
 
 # Install node modules
+# Rewrite git SSH URLs to HTTPS so git dependencies (e.g. libsignal-node) can be fetched without an SSH client
+RUN git config --global url."https://github.com/".insteadOf ssh://git@github.com/ && \
+    git config --global --add url."https://github.com/".insteadOf git@github.com: && \
+    git config --global --add url."https://github.com/".insteadOf git+ssh://git@github.com/
 COPY .npmrc package.json ./
 RUN npm install
 
